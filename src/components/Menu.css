@@ -1,8 +1,6 @@
 .menu {
   display: flex;
   flex-direction: column;
-  align-items: center; /* 将整个菜单居中对齐 */
-  justify-content: center;
 }
 
 .menu__button {
@@ -72,10 +70,11 @@
   transition: 0.1s;
 }
 
+/* 修改了标题和段落部分的排版 */
 .menu__info {
   padding: 10px;
   display: flex;
-  flex-direction: column; /* 使标题和段落纵向排列 */
+  flex-direction: column; /* 标题和段落纵向排列 */
   align-items: center; /* 居中对齐 */
   justify-content: center;
   width: 90%;
