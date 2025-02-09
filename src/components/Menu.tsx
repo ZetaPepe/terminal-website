@@ -8,7 +8,7 @@ export default function Menu() {
         <div className="menu__greeting">
           {/* 添加图片 */}
           <img
-            src="https://www.example.com/your-image.jpg" // 替换为你的图片链接
+            src="./chicago.jpg" // 替换为你的图片链接
             alt="Introduction"
             className="menu__image" // 给图片一个类名，便于样式控制
           />
