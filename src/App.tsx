@@ -80,13 +80,13 @@ export default function App() {
       {/* 右上角社交图标 */}
       <div className="social-icons">
         <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} color="white" size="2x" style={{ margin: "0 10px" }} />
+          <FontAwesomeIcon icon={faGithub} color="white" size="lg" style={{ margin: "0 5px" }} />
         </a>
         <a href="https://t.me/your-username" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTelegram} color="white" size="2x" style={{ margin: "0 10px" }} />
+          <FontAwesomeIcon icon={faTelegram} color="white" size="lg" style={{ margin: "0 5px" }} />
         </a>
         <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTwitter} color="white" size="2x" style={{ margin: "0 10px" }} />
+          <FontAwesomeIcon icon={faTwitter} color="white" size="lg" style={{ margin: "0 5px" }} />
         </a>
       </div>
     </div>
