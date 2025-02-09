@@ -84,7 +84,7 @@
   display: flex;
   flex-direction: row; /* 水平排列标题和图片 */
   align-items: center; /* 水平居中对齐 */
-  text-align: center; /* 居中段落文本 */
+  margin-bottom: 15px; /* 给标题和图片间距 */
 }
 
 .menu__greeting h2 {
@@ -99,10 +99,10 @@
   object-fit: cover; /* 保证图片适应 */
 }
 
+/* 使段落位于标题和图片下方 */
 .menu__greeting p {
-  margin-top: 10px;
+  text-align: center; /* 确保段落文本居中 */
   margin: 0;
-  margin-bottom: 15px; /* 增加标题和段落之间的间距 */
 }
 
 @media screen and (max-width: 750px) {
