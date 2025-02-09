@@ -7,6 +7,12 @@ export default function Menu() {
       <div className="menu__info">
         <div className="menu__greeting">
           <h2>Introduction</h2>
+          {/* 添加图片 */}
+          <img
+            src="./chicago.jpg" // 替换成你的图片路径
+            alt="Introduction image"
+            className="menu__image"
+          />
           <p>
             ANIMAT is the first AI platform to integrate MMD and facial
             tracking for dynamic 3D Model, enabling realistic
