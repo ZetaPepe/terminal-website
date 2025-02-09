@@ -25,10 +25,11 @@
 }
 
 .menu__image {
-  width: 50%; /* 图片宽度占满容器 */
-  height: auto; /* 自适应高度 */
-  margin-bottom: 20px; /* 增加图片与标题之间的间距 */
-  border-radius: 8px; /* 可选：添加圆角效果 */
+  width: 30%; /* 更小的图片宽度，缩小为 60% */
+  height: auto; /* 保持高度自适应 */
+  margin-bottom: 20px; /* 保持图片与标题之间的间距 */
+  border-radius: 50%; /* 使图片变为圆形 */
+  object-fit: cover; /* 确保图片不被拉伸，适应容器 */
 }
 
 .menu__info {
