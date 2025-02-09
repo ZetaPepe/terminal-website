@@ -6,13 +6,20 @@ export default function Menu() {
     <div className="menu">
       <div className="menu__info">
         <div className="menu__greeting">
-          {/* 添加图片 */}
-          <img
-            src="./chicago.jpg" // 替换为你的图片链接
-            alt="Introduction"
-            className="menu__image" // 给图片一个类名，便于样式控制
-          />
+          {/* 标题 */}
           <h2>Introduction</h2>
+
+          {/* 添加文字和图片部分 */}
+          <div className="menu__text-image">
+            <span className="menu__text">ANIMAT AI</span>
+            <img
+              src="./chicago.jpg" // 替换为你的图片链接
+              alt="Animat AI"
+              className="menu__image" // 给图片类名，便于样式控制
+            />
+          </div>
+
+          {/* 段落 */}
           <p>
             ANIMAT is the first AI platform to integrate MMD and facial
             tracking for dynamic 3D Model, enabling realistic
@@ -21,7 +28,7 @@ export default function Menu() {
         </div>
       </div>
 
-      {/* 其余部分保持不变 */}
+      {/* 其他链接按钮保持不变 */}
       <a
         href="https://github.com/Apcoev/AnimatAI"
         className="menu__button"
