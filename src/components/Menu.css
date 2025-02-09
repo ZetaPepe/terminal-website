@@ -82,15 +82,21 @@
 
 .menu__greeting {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* 居中对齐标题和段落 */
+  flex-direction: row; /* 水平排列标题和图片 */
+  align-items: center; /* 水平居中对齐 */
   text-align: center; /* 居中段落文本 */
 }
 
 .menu__greeting h2 {
   color: #72147e;
   margin: 0;
-  margin-bottom: 15px; /* 增加标题和段落之间的间距 */
+  margin-right: 10px; /* 增加标题和图片之间的间距 */
+}
+
+.menu__greeting img {
+  width: 2rem; /* 图片宽度与标题一致 */
+  height: 2rem; /* 图片高度与标题一致 */
+  object-fit: cover; /* 保证图片适应 */
 }
 
 .menu__greeting p {
