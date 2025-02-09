@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import Name from "./components/Name";
 import "./components/Menu.css";
-import './App.css'
+import './App.css';
+
+// 引入 FontAwesome 图标
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 export default function App() {
   const location = useLocation();
@@ -71,6 +75,19 @@ export default function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* 右上角社交图标 */}
+      <div className="social-icons">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} color="white" size="2x" style={{ margin: "0 10px" }} />
+        </a>
+        <a href="https://t.me/your-username" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faTelegram} color="white" size="2x" style={{ margin: "0 10px" }} />
+        </a>
+        <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faTwitter} color="white" size="2x" style={{ margin: "0 10px" }} />
+        </a>
       </div>
     </div>
   );
