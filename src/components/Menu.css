@@ -119,7 +119,6 @@
   margin: 0;
   margin-bottom: 15px;
   font-family: "Microsoft YaHei", "Arial Black", sans-serif; /* 设置字体为黑体 */
-  font-size: 1.2rem; /* 增大字体大小 */
 }
 
 @media screen and (max-width: 750px) {
