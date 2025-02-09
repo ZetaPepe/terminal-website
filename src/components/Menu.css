@@ -25,7 +25,7 @@
 }
 
 .menu__image {
-  width: 30%; /* 更小的图片宽度，缩小为 60% */
+  width: 20%; /* 更小的图片宽度，缩小为 60% */
   height: auto; /* 保持高度自适应 */
   margin-bottom: 20px; /* 保持图片与标题之间的间距 */
   border-radius: 50%; /* 使图片变为圆形 */
