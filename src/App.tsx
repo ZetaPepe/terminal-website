@@ -29,7 +29,7 @@ export default function App() {
           <div>Animat AI</div>
           <div className="window__bar-filler" />
         </div>
-        <p className="window__text">Raspberry Pi 3 Model B Rev 2.1</p>
+        <p className="window__text"></p>
         <div className="terminal__outer">
           <div className="terminal">
             <pre className="terminal__title">/home{location.pathname}</pre>
