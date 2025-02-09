@@ -21,33 +21,33 @@ export default function Menu() {
       </div>
 
       <a
-        href="https://barqawiz.github.io/Tamagotchi/cat.html"  // 这里是你想跳转的外部链接
+        href="https://github.com/Apcoev/AnimatAI"  // 这里是你想跳转的外部链接
         className="menu__button"
         target="_blank"  // target="_blank" 确保链接在新标签页打开
         rel="noopener noreferrer"  // 安全性设置，防止某些类型的攻击
       >
-        <span className="menu__header">Resume</span>
-        <span className="menu__subheader">View my resume</span>
+        <span className="menu__header">GitHub</span>
+        <span className="menu__subheader">View more info</span>
       </a>
 
       <a
-        href="https://www.example.com/projects"  // 这里是你想跳转的外部链接
+        href="https://x.com/animat_ai"  // 这里是你想跳转的外部链接
         className="menu__button"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="menu__header">Projects</span>
-        <span className="menu__subheader">See various projects I have worked on</span>
+        <span className="menu__header">Twitter</span>
+        <span className="menu__subheader">Animat Twitter </span>
       </a>
 
       <a
-        href="https://www.example.com/about"  // 这里是你想跳转的外部链接
+        href="https://t.me/AnimatAI"  // 这里是你想跳转的外部链接
         className="menu__button"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="menu__header">About</span>
-        <span className="menu__subheader">Read more about me</span>
+        <span className="menu__header">Telegram</span>
+        <span className="menu__subheader">Animat Chat</span>
       </a>
 
       <a
@@ -56,8 +56,8 @@ export default function Menu() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="menu__header">Contact</span>
-        <span className="menu__subheader">Connect with me</span>
+        <span className="menu__header">App</span>
+        <span className="menu__subheader">Beta live now</span>
       </a>
     </div>
   );
