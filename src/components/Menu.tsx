@@ -6,12 +6,11 @@ export default function Menu() {
     <div className="menu">
       <div className="menu__info">
         <div className="menu__greeting">
-          <h2>Hi there!</h2>
+          <h2>Introduction</h2>
           <p>
-            My name is Peter and I am a Full Stack Web Developer. I love
-            building new systems that empower developers and users to do their
-            best work. Explore some of the stuff I have done using the buttons
-            below!
+            ANIMAT is the first AI platform to integrate MMD and facial 
+            tracking for dynamic 3D Model,enabling realistic 
+            customization and upgrade of AgentAI.
           </p>
         </div>
         <img
