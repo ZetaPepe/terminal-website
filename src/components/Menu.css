@@ -74,34 +74,36 @@
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start; /* 将图片和标题左对齐 */
   width: 90%;
 }
 
 .menu__info img {
-  border-radius: 50%;  /* 保证圆形裁剪 */
-  max-width: 200px;
+  border-radius: 50%; /* 保证圆形裁剪 */
+  max-width: 80px; /* 设置图片宽度为固定大小 */
   min-width: 80px;
-  max-height: 200px;
+  max-height: 80px;
   min-height: 80px;
-  object-fit: cover;  /* 保证图片适应容器大小 */
-  width: 100%;  /* 设置图片宽度为容器的宽度 */
-  height: auto;  /* 高度自适应，保持比例 */
-  flex: 1 1 200px;
-}
-
-
-.menu__info p {
-  margin-right: 5%;
+  object-fit: cover; /* 保证图片适应容器大小 */
+  margin-right: 15px; /* 图片与标题之间的间距 */
 }
 
 .menu__greeting {
-  flex: 0 2 800px;
-  max-width: 1000px;
+  display: flex;
+  flex-direction: column; /* 使标题和段落纵向排列 */
 }
 
 .menu__greeting h2 {
- color: #72147e;
+  color: #72147e;
+}
+
+.menu__greeting p {
+  margin-top: 10px; /* 段落文本距标题的上边距 */
+}
+
+.menu__greeting p,
+.menu__info h2 {
+  margin: 0;
 }
 
 @media screen and (max-width: 750px) {
@@ -124,6 +126,6 @@
 
   .menu__return-button-icon {
     font-size: 1.3rem;
-    top: 4px
+    top: 4px;
   }
 }
