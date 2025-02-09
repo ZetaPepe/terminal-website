@@ -6,6 +6,12 @@ export default function Menu() {
     <div className="menu">
       <div className="menu__info">
         <div className="menu__greeting">
+          {/* 添加图片 */}
+          <img
+            src="https://www.example.com/your-image.jpg" // 替换为你的图片链接
+            alt="Introduction"
+            className="menu__image" // 给图片一个类名，便于样式控制
+          />
           <h2>Introduction</h2>
           <p>
             ANIMAT is the first AI platform to integrate MMD and facial
@@ -15,6 +21,7 @@ export default function Menu() {
         </div>
       </div>
 
+      {/* 其余部分保持不变 */}
       <a
         href="https://github.com/Apcoev/AnimatAI"
         className="menu__button"
@@ -55,7 +62,6 @@ export default function Menu() {
         <span className="menu__subheader">Beta live now</span>
       </a>
 
-      {/* 新增 Contract 部分 */}
       <a
         href="https://www.example.com/contract"
         className="menu__button"
