@@ -13,6 +13,10 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About";
 
+// 引入 FontAwesome 图标
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+
 const container = document.getElementById("root");
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const root = createRoot(container!);
