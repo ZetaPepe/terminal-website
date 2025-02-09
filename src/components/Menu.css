@@ -1,6 +1,8 @@
 .menu {
   display: flex;
   flex-direction: column;
+  align-items: center; /* 将整个菜单居中对齐 */
+  justify-content: center;
 }
 
 .menu__button {
@@ -73,37 +75,26 @@
 .menu__info {
   padding: 10px;
   display: flex;
-  align-items: center;
-  justify-content: flex-start; /* 图片和标题左对齐 */
+  flex-direction: column; /* 使标题和段落纵向排列 */
+  align-items: center; /* 居中对齐 */
+  justify-content: center;
   width: 90%;
-}
-
-.menu__info img {
-  border-radius: 50%;  /* 保证圆形裁剪 */
-  max-width: 80px;  /* 图片最大宽度 */
-  min-width: 80px;
-  max-height: 80px;
-  min-height: 80px;
-  object-fit: cover;  /* 确保图片适应容器大小 */
-  margin-right: 15px; /* 图片与标题之间的间距 */
 }
 
 .menu__greeting {
   display: flex;
-  flex-direction: column; /* 使标题和段落纵向排列 */
+  flex-direction: column;
+  align-items: center; /* 居中对齐标题和段落 */
+  text-align: center; /* 居中段落文本 */
 }
 
 .menu__greeting h2 {
   color: #72147e;
-  margin: 0; /* 清除默认的外边距 */
+  margin: 0;
 }
 
 .menu__greeting p {
-  margin-top: 10px; /* 段落文本距标题的上边距 */
-  margin: 0; /* 清除默认的外边距 */
-}
-
-.menu__info h2 {
+  margin-top: 10px;
   margin: 0;
 }
 
