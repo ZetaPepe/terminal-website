@@ -21,9 +21,7 @@ export default function Menu() {
 
           {/* 段落 */}
           <p>
-            ANIMAT is the first AI platform to integrate MMD and facial
-            tracking for dynamic 3D Model, enabling realistic
-            customization and upgrade of AgentAI.
+            ANIMAT is the first AI platform to integrate MMD and facial tracking for dynamic 3D Model, enabling realistic customization and upgrade of AgentAI.
           </p>
         </div>
       </div>
