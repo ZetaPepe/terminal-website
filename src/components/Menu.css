@@ -119,8 +119,13 @@
   margin: 0;
   margin-bottom: 15px;
   font-family: "Microsoft YaHei", "Arial Black", sans-serif; /* 设置字体为黑体 */
-  text-align: left; /* 设置段落为左对齐 */
+  text-align: justify; /* 设置文本两端对齐 */
+  line-height: 1.6; /* 增加行高，让行间距更舒适 */
+  max-width: 700px; /* 限制段落的最大宽度，避免行过长 */
+  margin-left: auto;
+  margin-right: auto; /* 水平居中段落 */
 }
+
 
 @media screen and (max-width: 750px) {
   .menu__button {
