@@ -79,14 +79,17 @@
 }
 
 .menu__info img {
-  border-radius: 50%;
+  border-radius: 50%;  /* 保证圆形裁剪 */
   max-width: 200px;
   min-width: 80px;
   max-height: 200px;
   min-height: 80px;
-  object-fit: cover;
+  object-fit: cover;  /* 保证图片适应容器大小 */
+  width: 100%;  /* 设置图片宽度为容器的宽度 */
+  height: auto;  /* 高度自适应，保持比例 */
   flex: 1 1 200px;
 }
+
 
 .menu__info p {
   margin-right: 5%;
