@@ -14,7 +14,7 @@ export default function App() {
       <video autoPlay muted loop={background} playsInline id="background-vid">
         <source src="./compressed_bkg.mp4" type="video/mp4" />
       </video>
-      <Name text={">Peter LaMontagne"} />
+      <Name text={">ANIMAT"} />
       <div className="window">
         <div className="window__bar">
           <div className="window__bar-circles">
@@ -22,7 +22,7 @@ export default function App() {
             <div className="window__bar-circle window__bar-circle__yellow" />
             <div className="window__bar-circle window__bar-circle__green" />
           </div>
-          <div>peter@peter-raspi: ~ - ssh pi</div>
+          <div>Animat AI</div>
           <div className="window__bar-filler" />
         </div>
         <p className="window__text">Raspberry Pi 3 Model B Rev 2.1</p>
