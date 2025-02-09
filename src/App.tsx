@@ -79,13 +79,13 @@ export default function App() {
 
       {/* 右上角社交图标 */}
       <div className="social-icons">
-        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Apcoev/AnimatAI" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} color="white" size="lg" style={{ margin: "0 5px" }} />
         </a>
-        <a href="https://t.me/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/AnimatAI" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTelegram} color="white" size="lg" style={{ margin: "0 5px" }} />
         </a>
-        <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/animat_ai" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTwitter} color="white" size="lg" style={{ margin: "0 5px" }} />
         </a>
       </div>
