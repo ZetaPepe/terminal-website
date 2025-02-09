@@ -271,7 +271,7 @@ body {
 }
 
 .social-icons a {
-  margin: 0 10px; /* 为每个图标设置间距 */
+  margin: 0 5px; /* 为每个图标设置间距 */
 }
 
 .social-icons a:hover {
