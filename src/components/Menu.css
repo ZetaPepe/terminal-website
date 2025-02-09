@@ -74,17 +74,17 @@
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* 将图片和标题左对齐 */
+  justify-content: flex-start; /* 图片和标题左对齐 */
   width: 90%;
 }
 
 .menu__info img {
-  border-radius: 50%; /* 保证圆形裁剪 */
-  max-width: 80px; /* 设置图片宽度为固定大小 */
+  border-radius: 50%;  /* 保证圆形裁剪 */
+  max-width: 80px;  /* 图片最大宽度 */
   min-width: 80px;
   max-height: 80px;
   min-height: 80px;
-  object-fit: cover; /* 保证图片适应容器大小 */
+  object-fit: cover;  /* 确保图片适应容器大小 */
   margin-right: 15px; /* 图片与标题之间的间距 */
 }
 
@@ -95,13 +95,14 @@
 
 .menu__greeting h2 {
   color: #72147e;
+  margin: 0; /* 清除默认的外边距 */
 }
 
 .menu__greeting p {
   margin-top: 10px; /* 段落文本距标题的上边距 */
+  margin: 0; /* 清除默认的外边距 */
 }
 
-.menu__greeting p,
 .menu__info h2 {
   margin: 0;
 }
