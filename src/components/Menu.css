@@ -95,6 +95,7 @@
 .menu__greeting p {
   margin-top: 10px;
   margin: 0;
+  margin-bottom: 15px; /* 增加标题和段落之间的间距 */
 }
 
 @media screen and (max-width: 750px) {
