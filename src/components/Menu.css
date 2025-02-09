@@ -90,6 +90,7 @@
 .menu__greeting h2 {
   color: #72147e;
   margin: 0;
+  margin-bottom: 15px; /* 增加标题和段落之间的间距 */
 }
 
 .menu__greeting p {
