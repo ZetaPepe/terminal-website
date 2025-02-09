@@ -24,58 +24,25 @@
   color: #404040;
 }
 
-.menu__return-button {
-  display: block;
-  width: 100%;
-  margin-top: .5rem;
+/* 新增文字和图片的布局 */
+.menu__text-image {
+  display: flex; /* 使用 Flexbox 来水平排列文字和图片 */
+  align-items: center; /* 垂直居中对齐 */
+  gap: 10px; /* 文字和图片之间留出间距 */
+  margin-bottom: 20px; /* 文字和图片与段落之间的间距 */
 }
 
-.menu__return-button-icon {
-  margin-right: .5rem;
-  position: relative;
-  top: 6px;
-  font-size: 2rem;
-}
-
-.menu__return-button__small {
-  display: block;
-  width: fit-content;
-  padding: .3rem;
-  margin: 0;
-}
-
-.menu__return-button__small span {
-  padding: .3rem;
-  margin: 0;
-  color: black;
-  font-size: 1.75rem;
+.menu__text {
+  font-size: 1.75rem; /* 设置文字的大小 */
   font-weight: 600;
-  text-decoration: none;
-}
-
-.menu__return-button__small span:hover {
-  background-color: rgb(140, 26, 17);
-  color: rgb(191, 190, 190);
-  transition: 0.1s;
-}
-
-.menu__button:hover {
-  background-color: rgb(140, 26, 17);
-  color: rgb(191, 190, 190);
-  transition: 0.1s;
-}
-
-.menu__button:hover .menu__subheader {
-  color: rgb(191, 190, 190);
-  transition: 0.1s;
+  color: #72147e; /* 你可以根据需要调整文字颜色 */
 }
 
 .menu__image {
-  width: 20%; /* 更小的图片宽度，缩小为 60% */
-  height: auto; /* 保持高度自适应 */
-  margin-bottom: 20px; /* 保持图片与标题之间的间距 */
-  border-radius: 50%; /* 使图片变为圆形 */
-  object-fit: cover; /* 确保图片不被拉伸，适应容器 */
+  width: 1.75rem; /* 图片的宽度和文字大小一致 */
+  height: 1.75rem; /* 高度和宽度一致，保持圆形 */
+  border-radius: 50%; /* 圆形效果 */
+  object-fit: cover; /* 确保图片不被拉伸 */
 }
 
 .menu__info {
