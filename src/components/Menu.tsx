@@ -8,8 +8,8 @@ export default function Menu() {
         <div className="menu__greeting">
           <h2>Introduction</h2>
           <p>
-            ANIMAT is the first AI platform to integrate MMD and facial 
-            tracking for dynamic 3D Model, enabling realistic 
+            ANIMAT is the first AI platform to integrate MMD and facial
+            tracking for dynamic 3D Model, enabling realistic
             customization and upgrade of AgentAI.
           </p>
         </div>
@@ -53,6 +53,17 @@ export default function Menu() {
       >
         <span className="menu__header">App</span>
         <span className="menu__subheader">Beta live now</span>
+      </a>
+
+      {/* 新增 Contract 部分 */}
+      <a
+        href="https://www.example.com/contract"
+        className="menu__button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span className="menu__header">Contract</span>
+        <span className="menu__subheader">Not develop yet</span>
       </a>
     </div>
   );
