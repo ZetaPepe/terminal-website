@@ -11,7 +11,7 @@ export default function Menu() {
 
           {/* 添加文字和图片部分 */}
           <div className="menu__text-image">
-            <span className="menu__text">ANIMAT AI</span>
+            <span className="menu__text">ANIMAT </span>
             <img
               src="./chicago.jpg" // 替换为你的图片链接
               alt="Animat AI"
