@@ -58,7 +58,7 @@ export default function Menu() {
       </a>
 
       <a
-        href="https://www.example.com/contact"
+        href="https://www.animatai.fun"
         className="menu__button"
         target="_blank"
         rel="noopener noreferrer"
