@@ -299,7 +299,7 @@ body {
   opacity: 0.9; /* 透明度设置 */
   cursor: pointer;
   text-align: center;
-  padding: 5px 10px; /* 给按钮增加一点内边距 */
+  padding: 4px 8px; /* 给按钮增加一点内边距 */
   border: 2px solid white; /* 添加白色边框 */
   border-radius: 5px; /* 设置圆角边框 */
 }
