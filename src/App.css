@@ -299,6 +299,9 @@ body {
   opacity: 0.9; /* 透明度设置 */
   cursor: pointer;
   text-align: center;
+  padding: 10px 20px; /* 给按钮增加一点内边距 */
+  border: 2px solid white; /* 添加白色边框 */
+  border-radius: 5px; /* 设置圆角边框 */
 }
 
 .beta-app-button:hover {
