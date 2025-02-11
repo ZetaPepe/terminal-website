@@ -19,6 +19,12 @@ export default function App() {
         <source src="./compressed_bkg.mp4" type="video/mp4" />
       </video>
       <Name text={">ANIMAT"} />
+      
+      {/* Beta App 按钮 */}
+      <div className="beta-app-button">
+        Beta App
+      </div>
+
       <div className="window">
         <div className="window__bar">
           <div className="window__bar-circles">
