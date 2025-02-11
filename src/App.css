@@ -304,6 +304,13 @@ body {
   border-radius: 5px; /* 设置圆角边框 */
 }
 
+/* 只在电脑端（屏幕宽度大于 750px）修改按钮位置 */
+@media screen and (min-width: 750px) {
+  .beta-app-button {
+    top: 20px;
+    left: 20px;
+  }
+}
 .beta-app-button:hover {
   opacity: 1; /* 鼠标悬停时增加透明度 */
   transition: opacity 0.2s ease; /* 添加渐变效果 */
