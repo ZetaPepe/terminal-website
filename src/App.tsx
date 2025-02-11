@@ -22,7 +22,9 @@ export default function App() {
       
       {/* Beta App 按钮 */}
       <div className="beta-app-button">
-        Beta App
+        <a href="https://animatai.fun" target="_blank" rel="noopener noreferrer">
+          Beta App
+        </a> 
       </div>
 
       <div className="window">
