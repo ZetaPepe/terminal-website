@@ -11,7 +11,6 @@
   color: black;
   display: flex;
   align-items: baseline;
-  gap: 10px;
 }
 
 .menu__header {
@@ -135,6 +134,11 @@
   }
 }
 
+@media screen and (min-width: 750px) {
+  .menu__button {
+    gap: 30px; /* 电脑端增加间距 */
+  }
+}
 @media screen and (max-width: 550px) {
   .menu__button {
     padding: 10px;
