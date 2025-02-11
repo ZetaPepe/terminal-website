@@ -290,8 +290,8 @@ body {
 
 .beta-app-button {
   position: absolute; /* 使它固定在左上角 */
-  top: 20px;
-  left: 20px;
+  top: 15px;
+  left: 15px;
   color: white; /* 字体颜色 */
   font-size: 1rem; /* 和 >ANIMAT 相同的字体大小 */
   font-weight: 600; /* 和 >ANIMAT 相同的字体粗细 */
@@ -299,7 +299,7 @@ body {
   opacity: 0.9; /* 透明度设置 */
   cursor: pointer;
   text-align: center;
-  padding: 10px 20px; /* 给按钮增加一点内边距 */
+  padding: 5px 10px; /* 给按钮增加一点内边距 */
   border: 2px solid white; /* 添加白色边框 */
   border-radius: 5px; /* 设置圆角边框 */
 }
