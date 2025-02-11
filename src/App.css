@@ -311,6 +311,22 @@ body {
     left: 60px;
   }
 }
+
+/* 新增样式确保链接文字样式 */
+.beta-app-button a {
+  color: white; /* 保持字体颜色为白色 */
+  text-decoration: none; /* 去掉下划线 */
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Arial", Helvetica, sans-serif;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.beta-app-button a:hover {
+  opacity: 1; /* 悬停时透明度变化 */
+}
+
 .beta-app-button:hover {
   opacity: 1; /* 鼠标悬停时增加透明度 */
   transition: opacity 0.2s ease; /* 添加渐变效果 */
