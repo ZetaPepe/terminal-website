@@ -287,3 +287,21 @@ body {
     width: 75%;
   }
 }
+
+.beta-app-button {
+  position: absolute; /* 使它固定在左上角 */
+  top: 20px;
+  left: 20px;
+  color: white; /* 字体颜色 */
+  font-size: 2.8rem; /* 和 >ANIMAT 相同的字体大小 */
+  font-weight: 600; /* 和 >ANIMAT 相同的字体粗细 */
+  font-family: "Arial", Helvetica, sans-serif; /* 使用相同的字体 */
+  opacity: 0.9; /* 透明度设置 */
+  cursor: pointer;
+  text-align: center;
+}
+
+.beta-app-button:hover {
+  opacity: 1; /* 鼠标悬停时增加透明度 */
+  transition: opacity 0.2s ease; /* 添加渐变效果 */
+}
