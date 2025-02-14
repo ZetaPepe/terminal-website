@@ -67,15 +67,10 @@ export default function Menu() {
         <span className="menu__subheader">Beta live now</span>
       </a>
 
-      <a
-        href="https://www.example.com/contract"
-        className="menu__button"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a className="menu__button">
         <span className="menu__header">Contract</span>
-        <span className="menu__subheader">Not develop yet</span>
-      </a>
+        <span className="menu__subheader">AzHptSqP5ihLfwRaxsrcJ5fmpEQbiN21i1ovSQLQpump</span>
+      </a >
     </div>
   );
 }
