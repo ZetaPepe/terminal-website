@@ -21,7 +21,10 @@
 .menu__subheader {
   font-size: 1rem;
   font-style: italic;
-  color: #404040;
+  color: #404040
+  word-wrap: break-word; 
+  word-break: break-word; 
+
 }
 
 .menu__return-button {
